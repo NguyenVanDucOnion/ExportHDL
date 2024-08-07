@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click '&No'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "qdgWD6yzsU6rliZ98_Bmzg",
+  "Reference": "AXi_oqPm5k2ANIcpSjw3VQ/qdgWD6yzsU6rliZ98_Bmzg",
+  "ParentRef": "AXi_oqPm5k2ANIcpSjw3VQ/EIGDHND9cka43NqBUF_qcg",
+  "Created": "2024-07-15T08:56:03.9995041Z",
+  "Updated": "2024-07-15T08:56:03.9995041Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

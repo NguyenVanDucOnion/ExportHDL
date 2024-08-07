@@ -1,0 +1,533 @@
+Title: KhoiTaoWS_DanhGiaHP
+Message: Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWS_DanhGiaHP()
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 07-05-2024 02:18:17 PM
+================================================
+Title: ECUS5NET\KhoiTaoWebserviceDKCKS
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 07-05-2024 02:18:21 PM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.151
+AppDate: 07-05-2024 02:19:48 PM
+Date/Time: 07-05-2024 02:19:48 PM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-07-05T14:19:48.0345593+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.151","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 296\r\nMa_KH: 0102182528","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='KiemTraUserSuDung'##Select * from ProfileValue Where Ten = 'THIET_LAP_IN_EXCEL'##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'HDG-LOGISTICS' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM SYSDB_FILE WHERE 1=1##SELECT * FROM SYSDB_FILE WHERE 1=1##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_0102182528'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='0102182528' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 07-05-2024 02:19:48 PM
+Date/Time: 07-05-2024 02:19:48 PM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-07-05T14:19:48.0345593+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.151","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 296\r\nMa_KH: 0102182528","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='KiemTraUserSuDung'##Select * from ProfileValue Where Ten = 'THIET_LAP_IN_EXCEL'##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'HDG-LOGISTICS' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM SYSDB_FILE WHERE 1=1##SELECT * FROM SYSDB_FILE WHERE 1=1##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_0102182528'##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='0102182528' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.151
+AppDate: 07-05-2024 02:19:48 PM
+Date/Time: 07-05-2024 02:19:48 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 2:19:51 PM
+================================================
+Title: ProxyWebservice
+Message: Kiểm tra thông tin Proxy
+StackTrace: URL: http://ecus.vn/EcusService/WebService.asmx
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 2:19:53 PM
+================================================
+Title: ProxyWebservice
+Message: 6. Hoàn thành thông tin Proxy
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 2:19:53 PM
+================================================
+Title: WS_KiemTraBanQuyenOnline
+Message: Thành công
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 2:19:56 PM
+================================================
+Title: checkService_OneMonth_TabBar
+Message: Conversion from string "" to type 'Date' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at Microsoft.VisualBasic.DateAndTime.DateValue(String StringDate)
+   at ..()
+   at ..(Boolean , Boolean )
+   at TSD.ECUSKDNET.frmShowTabBar.()
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 2:19:56 PM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 2:21:51 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 3:20:17 PM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 3:26:53 PM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 4:20:18 PM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.151
+AppDate: 05/06/2024
+Date/Time: 7/5/2024 4:59:54 PM
+================================================
+Title: KhoiTaoWS_DanhGiaHP
+Message: Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWS_DanhGiaHP()
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:01:16 AM
+================================================
+Title: ECUS5NET\KhoiTaoWebserviceDKCKS
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:01:17 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:06:59 AM
+Date/Time: 08-06-2024 10:06:59 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-08-06T10:06:59.721724+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='KiemTraUserSuDung'##Select * from ProfileValue Where Ten = 'THIET_LAP_IN_EXCEL'##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'HDG-LOGISTICS' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_0901043062'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='0901043062' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+StackTrace: 
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:06:59 AM
+Date/Time: 08-06-2024 10:06:59 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-08-06T10:06:59.721724+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"ECUS5NET","description":"ECUS5NET\\KhoiTaoWebserviceDKCKS\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","stackTrace":"   at TSD.ECUSKDNET.frmMain.KhoiTaoWebserviceDKCKS()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='KiemTraUserSuDung'##Select * from ProfileValue Where Ten = 'THIET_LAP_IN_EXCEL'##Select UserID from  SYSAPPUSER where Username = 'Root'##Select leve from  SYSAPPUSER where Username = 'Root'##SELECT COUNT(*) FROM BQ_DON_HANG WHERE PC = 'HDG-LOGISTICS' AND MST_KHACH_HANG = '0100112691'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT Top 1 ECUSString FROM  SYSPARA WHERE Code='DateShowReIndex'##SELECT TOP 1 1 FROM SYSPARA WHERE Code = 'FiscalFromDate_0901043062'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##Select COUNT(1) From DToKhaiMD  Where [MA_DV]='0901043062' AND TTTK in ('D','P','T') AND ISNULL(ISTEST, 0) = 0  and isNewInfomation = 2 AND PhienBan_TK ='CT' and [NextToKhaiID] is NULL"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:07:00 AM
+Date/Time: 08-06-2024 10:07:00 AM
+================================================
+Title: checkService_OneMonth
+Message: 0.Bắt đầu kiểm tra dịch vụ
+StackTrace: 
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 8/6/2024 10:07:02 AM
+================================================
+Title: bgwCheckUpdate
+Message: Kiểm tra update tự động.
+StackTrace: 
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 8/6/2024 10:09:02 AM
+================================================
+Title: TSDUtil\clsMyApp\isValide_an
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.Util.clsMyApp.(DataSet , DataSet , String , Form , String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:10:45 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:45 AM
+Date/Time: 08-06-2024 10:13:45 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-08-06T10:13:45.3384139+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_an\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:45 AM
+Date/Time: 08-06-2024 10:13:45 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-08-06T10:13:45.3384139+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_an\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, DataSet \u0003, String \u0004, Form \u0005, String \u0006)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:45 AM
+Date/Time: 08-06-2024 10:13:45 AM
+================================================
+Title: TSDUtil\clsMyApp\isValide_V
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at TSD.Util.clsMyApp.(DataSet , String , Form , String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:13:45 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:46 AM
+Date/Time: 08-06-2024 10:13:46 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-08-06T10:13:46.3829988+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_V\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:46 AM
+Date/Time: 08-06-2024 10:13:46 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-08-06T10:13:46.3829988+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\isValide_V\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","stackTrace":"   at TSD.Util.clsMyApp.\u0001(DataSet \u0002, String \u0003, Form \u0004, String \u0005)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:46 AM
+Date/Time: 08-06-2024 10:13:46 AM
+================================================
+Title: TSDUtil\clsMyApp\SQL_OpenTable
+Message: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at TSD.Util.clsMyApp.(String , SqlConnection , SqlTransaction )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:13:46 AM
+================================================
+Title: TSDUtil\clsMyApp\SQL_OpenTable
+Message: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+Select Max(LanSua)As LanSua from SYSUSER_EDITLOG Where ChungTuID = 0 And FormName = 'frmVNACCS_EDA'
+StackTrace:    at TSD.Util.clsMyApp.(String , SqlConnection , SqlTransaction )
+   at TSD.Util.clsMyApp.(String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:13:46 AM
+================================================
+Title: ECUS5NET\clsVNACCS_EDA\Save
+Message: 
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+StackTrace:    at TSD.Util.clsMyApp.(String )
+   at ..(Int64 , String )
+   at ..Save()
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:13:46 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:47 AM
+Date/Time: 08-06-2024 10:13:47 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-08-06T10:13:47.0991376+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"ECUS5NET","description":"ECUS5NET\\clsVNACCS_EDA\\Save\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)","innerException":"System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)\r\n   at TSD.Util.clsMyApp.\u0003(String )\r\n   at \u0014.\u0014.\u0001(Int64 , String )\r\n   at .\u0004.Save()","stackTrace":"   at TSD.Util.clsMyApp.\u0003(String )\r\n   at \u0014.\u0014.\u0001(Int64 , String )\r\n   at .\u0004.Save()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+StackTrace: 
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:47 AM
+Date/Time: 08-06-2024 10:13:47 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-08-06T10:13:47.0991376+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"ECUS5NET","description":"ECUS5NET\\clsVNACCS_EDA\\Save\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)","innerException":"System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)\r\n   at TSD.Util.clsMyApp.\u0003(String )\r\n   at \u0014.\u0014.\u0001(Int64 , String )\r\n   at .\u0004.Save()","stackTrace":"   at TSD.Util.clsMyApp.\u0003(String )\r\n   at \u0014.\u0014.\u0001(Int64 , String )\r\n   at .\u0004.Save()","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:13:47 AM
+Date/Time: 08-06-2024 10:13:47 AM
+================================================
+Title: TSDUtil\clsMyApp\SQLOpenDataSet
+Message: Select * from SYSDNUSER Where Ma_DN = '' And Ma_DaiLy = '0100112691'
+A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at TSD.Util.clsMyApp.(String , String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:14:06 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:16:02 AM
+Date/Time: 08-06-2024 10:16:02 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-08-06T10:16:02.4558015+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\SQLOpenDataSet\r\nDatabaseVer: 296\r\nMa_KH: 0901043062\r\nDescription: Select * from SYSDNUSER Where Ma_DN = '' And Ma_DaiLy = '0100112691'","message":"A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)","innerException":"System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)\r\n   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)\r\n   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)\r\n   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)\r\n   at System.Data.SqlClient.TdsParserStateObject.WriteSni()\r\n   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)\r\n   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()\r\n   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)\r\n   at TSD.Util.clsMyApp.\u0003(String , String )","stackTrace":"   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)\r\n   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)\r\n   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)\r\n   at System.Data.SqlClient.TdsParserStateObject.WriteSni()\r\n   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)\r\n   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()\r\n   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)\r\n   at TSD.Util.clsMyApp.\u0003(String , String )","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)"}
+StackTrace: 
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:16:02 AM
+Date/Time: 08-06-2024 10:16:02 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-08-06T10:16:02.4558015+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"TSDUtil","description":"TSDUtil\\clsMyApp\\SQLOpenDataSet\r\nDatabaseVer: 296\r\nMa_KH: 0901043062\r\nDescription: Select * from SYSDNUSER Where Ma_DN = '' And Ma_DaiLy = '0100112691'","message":"A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)","innerException":"System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)\r\n   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)\r\n   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)\r\n   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)\r\n   at System.Data.SqlClient.TdsParserStateObject.WriteSni()\r\n   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)\r\n   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()\r\n   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)\r\n   at TSD.Util.clsMyApp.\u0003(String , String )","stackTrace":"   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)\r\n   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)\r\n   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)\r\n   at System.Data.SqlClient.TdsParserStateObject.WriteSni()\r\n   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)\r\n   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()\r\n   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)\r\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)\r\n   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)\r\n   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)\r\n   at TSD.Util.clsMyApp.\u0003(String , String )","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:16:02 AM
+Date/Time: 08-06-2024 10:16:02 AM
+================================================
+Title: ECUS5NET\clsSYS_SDONVIKHAIBAOForm\cboRowChange
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at ..(C1Combo , TextBox , TextBox , TextBox , TextBox , C1Combo , Int32 )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:16:02 AM
+================================================
+Title: Send
+Message: Authorization: ecusaccount:qYtrGUtcF^vNX4T%
+StackTrace: URL: https://ecusapplog.thaison.vn:50555/
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:16:03 AM
+Date/Time: 08-06-2024 10:16:03 AM
+================================================
+Title: Send
+Message: BodyParameters: {"loglevel":"ERROR","timelog":"2024-08-06T10:16:03.2711102+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"ECUS5NET","description":"ECUS5NET\\clsSYS_SDONVIKHAIBAOForm\\cboRowChange\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at .\u000e.\u0001(C1Combo \u0002, TextBox \u0003, TextBox \u0004, TextBox \u0005, TextBox \u0006, C1Combo \u0007, Int32 \b)","stackTrace":"   at .\u000e.\u0001(C1Combo \u0002, TextBox \u0003, TextBox \u0004, TextBox \u0005, TextBox \u0006, C1Combo \u0007, Int32 \b)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)"}
+StackTrace: 
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:16:03 AM
+Date/Time: 08-06-2024 10:16:03 AM
+================================================
+Title: LogErrorApi=>Send
+Message: {"loglevel":"ERROR","timelog":"2024-08-06T10:16:03.2711102+07:00","application":"ECUS5VNACCS2018","applicationVer":"6.0.154","service":"ECUS5NET","description":"ECUS5NET\\clsSYS_SDONVIKHAIBAOForm\\cboRowChange\r\nDatabaseVer: 296\r\nMa_KH: 0901043062","message":"Object reference not set to an instance of an object.","innerException":"System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at .\u000e.\u0001(C1Combo \u0002, TextBox \u0003, TextBox \u0004, TextBox \u0005, TextBox \u0006, C1Combo \u0007, Int32 \b)","stackTrace":"   at .\u000e.\u0001(C1Combo \u0002, TextBox \u0003, TextBox \u0004, TextBox \u0005, TextBox \u0006, C1Combo \u0007, Int32 \b)","companyCode":"0100112691","companyName":"Công ty TNHH tiếp vận toàn cầu Hải Đăng","contact":"Mr Truong","contactPhone":"02432076996","systemOS":"Microsoft Windows 10 Enterprise LTSC","computerName":"HDG-Logistics","sqlString":"SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)##SELECT TOP 1 1 FROM information_schema.columns WHERE table_name ='DTOKHAIMD' AND column_name='MA_KHACH_HANG'##SELECT * FROM ProfileValue WHERE exists(SELECT * FROM Profile WHERE NguoiDung='Root' And ProfileValue.ProfileID = Profile.ProfileID)"}
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+StackTrace:    at System.Net.HttpWebRequest.GetResponse()
+   at LogErrorApi.LogErrorApi.Send(String BodyParameters)
+AppVer: 6.0.154
+AppDate: 08-06-2024 10:16:03 AM
+Date/Time: 08-06-2024 10:16:03 AM
+================================================
+Title: TSDUtil\clsMyApp\SQLOpenDataSet
+Message: Select * from SYSDNUSER Where Ma_DN = '' And Ma_DaiLy = '0100112691'
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at TSD.Util.clsMyApp.(String , String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:16:25 AM
+================================================
+Title: ECUS5NET\clsSYS_SDONVIKHAIBAOForm\cboRowChange
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at ..(C1Combo , TextBox , TextBox , TextBox , TextBox , C1Combo , Int32 )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:17:02 AM
+================================================
+Title: TSDUtil\clsMyApp\SQLOpenDataSet
+Message: Select * from SYSDNUSER Where Ma_DN = '' And Ma_DaiLy = '0100112691'
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at TSD.Util.clsMyApp.(String , String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:17:18 AM
+================================================
+Title: ECUS5NET\clsSYS_SDONVIKHAIBAOForm\cboRowChange
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at ..(C1Combo , TextBox , TextBox , TextBox , TextBox , C1Combo , Int32 )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:17:38 AM
+================================================
+Title: TSDUtil\clsMyApp\SQLOpenDataSet
+Message: Select * from SYSDNUSER Where Ma_DN = '' And Ma_DaiLy = '0100112691'
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at TSD.Util.clsMyApp.(String , String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:17:54 AM
+================================================
+Title: ECUS5NET\clsSYS_SDONVIKHAIBAOForm\cboRowChange
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at ..(C1Combo , TextBox , TextBox , TextBox , TextBox , C1Combo , Int32 )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:18:26 AM
+================================================
+Title: TSDUtil\clsMyApp\SQLOpenDataSet
+Message: Select * from SYSDNUSER Where Ma_DN = '0901043062' And Ma_DaiLy = '0100112691'
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at TSD.Util.clsMyApp.(String , String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:18:41 AM
+================================================
+Title: ECUS5NET\clsSYS_SDONVIKHAIBAOForm\cboRowChange
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at ..(C1Combo , TextBox , TextBox , TextBox , TextBox , C1Combo , Int32 )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:18:42 AM
+================================================
+Title: TSDUtil\clsMyApp\SQLOpenDataSet
+Message: Select * from SYSDNUSER Where Ma_DN = '0901043062' And Ma_DaiLy = '0100112691'
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at TSD.Util.clsMyApp.(String , String )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:18:43 AM
+================================================
+Title: ECUS5NET\clsSYS_SDONVIKHAIBAOForm\cboRowChange
+Message: 
+Object reference not set to an instance of an object.
+StackTrace:    at ..(C1Combo , TextBox , TextBox , TextBox , TextBox , C1Combo , Int32 )
+AppVer: 6.0.154
+AppDate: 26/06/2024
+Date/Time: 08-06-2024 10:18:43 AM
+================================================

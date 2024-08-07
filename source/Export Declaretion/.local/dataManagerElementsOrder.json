@@ -1,0 +1,37 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "isComplete&Sequence_137",
+        "popupoK&Sequence_137",
+        "popupExists1&Sequence_137",
+        "isMainWorkflow&Sequence_168",
+        "errorText&Sequence_106",
+        "popupExists&Flowchart_1",
+        "popup1&Sequence_137",
+        "popupExists&Sequence_137",
+        "check_loai_hinh&Sequence_138",
+        "folderExits&Sequence_139",
+        "Folder_Name&Sequence_139",
+        "FilePath&Sequence_98",
+        "logsFile&Sequence_2",
+        "exists&Sequence_2",
+        "filename&Flowchart_1",
+        "CheckFileExits&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

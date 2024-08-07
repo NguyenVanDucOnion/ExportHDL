@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="weBDbZzcy0y1ho2QGZonWA" Reference="AXi_oqPm5k2ANIcpSjw3VQ/qdgWD6yzsU6rliZ98_Bmzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="cc8dbf33-93ef-4ab5-967c-5bacbd8d2f4a" CvElementArea="355, 107, 109, 32" CvTextArea="408, 115, 20, 15" CvTextArgument="No" CvType="Button" DesignTimeRectangle="356, 107, 108, 32" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdNo' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='cmdNo' check:text='&amp;amp;No' /&gt;" Guid="7afb71d4-7304-406b-b10b-8b3dd3d91675" ScopeSelectorArgument="&lt;wnd app='ecus5vnaccs.exe' ctrlname='frmMsgBox' /&gt;" SearchSteps="CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-4" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8dc889a9261b394ff633c99f7db30d99.png" xmlns="">0AgQEy1lcSEytUoKacQLxsA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

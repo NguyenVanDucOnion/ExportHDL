@@ -1,0 +1,12 @@
+﻿EXPORT.xlsx Đã hoàn thành07/05/2024 21:58:55
+IN_XUAT_XUẤT_CTY AZUMA_00000022.xlsx Đã hoàn thành07/05/2024 23:03:59
+IN_XUAT_XUẤT_CTY AZUMA_00000022.xlsx Đã hoàn thành07/05/2024 23:10:50
+IN_XUAT_XUẤT_CTY AZUMA_00000022.xlsx Đã hoàn thành07/05/2024 23:20:26
+IN_XUAT_XUẤT_CTY AZUMA_00000022.xlsx Đã hoàn thành07/05/2024 23:32:36
+IN_XUAT_XUẤT_CTY AZUMA_00000022.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/05/2024 23:38:19

@@ -1,0 +1,252 @@
+﻿Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/15/2024 15:18:00
+Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/15/2024 16:03:18
+Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/15/2024 16:13:12
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 07/15/2024 16:17:42
+Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/15/2024 16:26:26
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsx Đã hoàn thành07/15/2024 16:30:08
+IN_XUAT_CTY ROKI_RKVRKJ240102.xlsx Đã hoàn thành07/15/2024 16:33:55
+IN_XUAT_CTY ASI_00000003.xlsx Đã hoàn thành07/15/2024 17:03:51
+IN_XUAT_CTY ASI_00000003.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/15/2024 17:07:44
+IN_XUAT_CTY ASI_00000003.xlsxLỗi Could not find the UI element corresponding to this selector:
+[1] <wnd app='ecus5vnaccs.exe' cls='**' ctrlname='frmMsgBox'/>
+[2] <wnd ctrlname='cmdCancel'/>
+
+Search failed at selector tag:
+[1] <wnd app='ecus5vnaccs.exe' cls='**' ctrlname='frmMsgBox'/>
+
+The closest matches found are:
+[83%] <wnd cls='**' ctrlname='frmBKGround'/>
+[82%] <wnd cls='**' ctrlname='frmShowTabBar'/>
+[81%] <wnd cls='**' ctrlname='GroupBox3'/>
+[81%] <wnd cls='**' ctrlname='GroupBox1'/>
+[81%] <wnd cls='**' ctrlname='GroupBox4'/>
+[80%] <wnd cls='**' ctrlname='PictureBox5'/>
+[80%] <wnd cls='**' ctrlname='PictureBox2'/>
+[79%] <wnd cls='**' ctrlname='frmVNACCS_EDA'/>
+[78%] <wnd cls='**' ctrlname='TextBox1'/>
+[76%] <wnd cls='**' ctrlname='optCX'/>- 07/26/2024 14:48:16
+Lỗi Could not find the user-interface (UI) element for this action.
+
+Possible solutions:
+ •  Ensure application is opened and the UI element is visible on the screen at execution time
+ •  Edit the Target of the UI activity and use Validation to debug the issue.
+ •  If needed, re-indicate the element as its properties might have changed
+ •  Use "Check state" activity to check the application state before executing the action
+ •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive- 07/26/2024 15:23:23
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi Could not find the user-interface (UI) element for this action.
+
+Possible solutions:
+ •  Ensure application is opened and the UI element is visible on the screen at execution time
+ •  Edit the Target of the UI activity and use Validation to debug the issue.
+ •  If needed, re-indicate the element as its properties might have changed
+ •  Use "Check state" activity to check the application state before executing the action
+ •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive- 07/26/2024 15:27:42
+IN_XUAT_CTY ROKI_RKVRKJ240102.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 07/26/2024 15:34:27
+Lỗi The automation failed to find the UI element operation due to a popup blocking the process.- 07/26/2024 15:54:44
+Lỗi The automation failed to find the UI element operation due to a popup blocking the process.- 07/26/2024 15:58:44
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 07/26/2024 16:56:14
+IN_XUAT_CTY ROKI_RKVRKJ240102.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 07/26/2024 17:00:50
+IN_XUAT_CTY ASI_00000003.xlsx Đã hoàn thành07/26/2024 17:18:13
+IN_XUAT_CTY ASI_00000003.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/26/2024 17:22:14
+IN_XUAT_CTY ASI_00000003.xlsx Đã hoàn thành07/29/2024 14:17:26
+IN_XUAT_CTY ASI_00000003.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/29/2024 14:21:14
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 07/29/2024 14:25:25
+IN_XUAT_CTY ROKI_RKVRKJ240102.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 07/29/2024 14:29:51
+Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/31/2024 14:31:34
+Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 07/31/2024 15:00:30
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 07/31/2024 15:05:04
+IN_XUAT_CTY ROKI_RKVRKJ240102.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 07/31/2024 15:09:30
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/01/2024 16:29:30
+IN_XUAT_ QUANG MINH_00000009.xlsxLỗi Could not find the user-interface (UI) element for this action.
+
+Possible solutions:
+ •  Ensure application is opened and the UI element is visible on the screen at execution time
+ •  Edit the Target of the UI activity and use Validation to debug the issue.
+ •  If needed, re-indicate the element as its properties might have changed
+ •  Use "Check state" activity to check the application state before executing the action
+ •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive- 08/05/2024 11:13:42
+Lỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/05/2024 11:41:54
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 08/05/2024 11:46:54
+IN_XUAT_CTY VINMACHINE.xlsxLỗi Could not find the user-interface (UI) element for this action.
+
+Possible solutions:
+ •  Ensure application is opened and the UI element is visible on the screen at execution time
+ •  Edit the Target of the UI activity and use Validation to debug the issue.
+ •  If needed, re-indicate the element as its properties might have changed
+ •  Use "Check state" activity to check the application state before executing the action
+ •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive- 08/05/2024 11:51:45
+IN_XUAT_CTY ASI_00000003.xlsx Đã hoàn thành08/05/2024 15:40:19
+Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 08/05/2024 15:55:50
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 08/05/2024 16:00:34
+Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 08/06/2024 09:37:26
+IN_XUAT_CTY VINMACHINE.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 08/06/2024 10:37:14
+IN_XUAT_ QUANG MINH_00000009.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdNo' check:text='&amp;No' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+- 08/06/2024 11:06:24
+IN_XUAT_ QUANG MINH_00000009.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/06/2024 11:13:53
+Lỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 08/06/2024 11:30:08
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi Failed setting the current sheet to: Input in workbook: D:\RPA_HDL\Export Declaration\input\IN_XUAT_CTY ROKI_RKVRINP240301.xlsx. Original error message:  The RPC server is unavailable. (0x800706BA)- 08/06/2024 11:34:08
+IN_XUAT_CTY ROKI_RKVRINP240301.xlsxLỗi Failed setting the current sheet to: Input in workbook: D:\RPA_HDL\Export Declaration\input\IN_XUAT_CTY ROKI_RKVRINP240301.xlsx. Original error message:  The RPC server is unavailable. (0x800706BA)- 08/06/2024 11:42:59
+IN_XUAT_CTY ROKI_RKVRKJ240102.xlsxLỗi Failed setting the current sheet to: Input in workbook: D:\RPA_HDL\Export Declaration\input\IN_XUAT_CTY ROKI_RKVRKJ240102.xlsx. Original error message:  The RPC server is unavailable. (0x800706BA)- 08/06/2024 13:57:13
+IN_XUAT_CTY ROKI_RKVRKJ240102.xlsxLỗi Failed setting the current sheet to: Input in workbook: D:\RPA_HDL\Export Declaration\input\IN_XUAT_CTY ROKI_RKVRKJ240102.xlsx. Original error message:  The RPC server is unavailable. (0x800706BA)- 08/06/2024 14:18:27
+IN_XUAT_CTY VINMACHINE.xlsxLỗi Failed setting the current sheet to: Input in workbook: D:\RPA_HDL\Export Declaration\input\IN_XUAT_CTY VINMACHINE.xlsx. Original error message:  The RPC server is unavailable. (0x800706BA)- 08/06/2024 14:25:19
+Lỗi Could not find the user-interface (UI) element for this action.
+
+Possible solutions:
+ •  Ensure application is opened and the UI element is visible on the screen at execution time
+ •  Edit the Target of the UI activity and use Validation to debug the issue.
+ •  If needed, re-indicate the element as its properties might have changed
+ •  Use "Check state" activity to check the application state before executing the action
+ •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive- 08/06/2024 14:55:33
+Lỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/06/2024 15:38:17
+IN_XUAT_ CTY AN PHONG_X-HW-CQ005.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/06/2024 15:45:26
+IN_XUAT_ CTY AN PHONG_X-HW-CQ005.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 08/06/2024 15:49:52
+IN_XUAT_CTY ROKI- RKV-RMP240201.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/06/2024 15:55:39
+IN_XUAT_CTY SEI-IV-SEEV-24-3556.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/06/2024 16:01:24
+IN_XUAT_ CTY AN PHONG_X-HW-CQ005.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/06/2024 16:11:38
+IN_XUAT_ QUANG MINH_00000009.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/06/2024 16:16:54
+IN_XUAT_ QUANG MINH_00000009.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 08/06/2024 16:21:41
+IN_XUAT_ QUANG MINH_00000009.xlsxLỗi The UI element could not be located using the configured Fuzzy selector for Target or Anchor.
+
+ 'Target' search failed for selector:
+	<wnd ctrlname='cmdCancel' check:text='&amp;OK' />
+These are the closest selector matches found:
+	[51%] <wnd ctrlname='cmdNo' check:text='&amp;No' />
+- 08/06/2024 16:26:44
+IN_XUAT_CTY ROKI_RKVRKJ240102.xlsxLỗi The automation failed to find the UI element operation due to a popup blocking the process.- 08/06/2024 16:31:42
